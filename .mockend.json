@@ -24,6 +24,6 @@
   },
   "Packs": {
     "PackNo" : "int",
-    "Batch" : "Batch"
+    "batch" : "Batch"
   }
 }
