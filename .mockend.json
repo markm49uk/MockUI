@@ -20,7 +20,7 @@
     "ProductDesc" : "string",
     "PONumber" : "string",
     "Cert" : "string",
-    "Packs": "Pack[]"
+    "Packs": "Packs[]"
   },
   "Packs": {
     "PackNo" : "int",
