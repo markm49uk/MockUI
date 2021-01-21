@@ -1,16 +1,4 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "level": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  },
   "Batch": {
     "ID": "int",
     "Name": "string",
@@ -20,7 +8,13 @@
     "ProductDesc" : "string",
     "PONumber" : "string",
     "Cert" : "string",
+    "Tally" : "Tallys[]",
     "packs": "Pack[]"
+  },
+  "Tallies": {
+    "Length": "int",
+    "Value": "int",
+    "batch" : "Batch"
   },
   "Pack": {
     "PackNo" : "int",
