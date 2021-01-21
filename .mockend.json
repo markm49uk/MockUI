@@ -11,7 +11,7 @@
     "Tally" : "Tallys[]",
     "packs": "Pack[]"
   },
-  "Tallies": {
+  "Tallys": {
     "Length": "int",
     "Value": "int",
     "batch" : "Batch"
