@@ -10,5 +10,20 @@
   "Comment": {
     "body": "string",
     "post": "Post"
+  },
+  "Batch": {
+    "ID": "int",
+    "Name": "string",
+    "ExpiryDate" : "date",
+    "CreatedDate" : "date",
+    "ProductId" : "string",
+    "ProductDesc" : "string",
+    "PONumber" : "string",
+    "Cert" : "string",
+    "Packs": "Pack[]"
+  },
+  "Packs": {
+    "PackNo" : "int",
+    "Batch" : "Batch"
   }
 }
