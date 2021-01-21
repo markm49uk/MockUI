@@ -2,6 +2,7 @@
   "Post": {
     "title": "string",
     "views": "int",
+    "level": "int",
     "published": "boolean",
     "createdAt": "date",
     "comments": "Comment[]"
