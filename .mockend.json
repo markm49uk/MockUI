@@ -9,15 +9,11 @@
     "PONumber" : "string",
     "Cert" : "string",
     "Tally" : "Tallys[]",
-    "packs": "Pack[]"
+    "Pack": "int"
   },
   "Tallys": {
     "Length": "int",
     "Value": "int",
-    "batch" : "Batch"
-  },
-  "Pack": {
-    "PackNo" : "int",
     "batch" : "Batch"
   }
 }
